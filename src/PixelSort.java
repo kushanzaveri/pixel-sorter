@@ -23,7 +23,6 @@ public class PixelSort {
         }else{
 
         }
-
     }
     public void sortRow(Pixel[] row){
         boolean sort = false;
@@ -60,9 +59,11 @@ public class PixelSort {
 
 
     public static void main(String[] args){
+        Picture orig = new Picture ("img.jpg");
         Picture img = new Picture("img.jpg");
-        PixelSort ps = new PixelSort(img, 200, false);
+        PixelSort ps = new PixelSort(img, 150, false);
         ps.getPicture().write("sorted.jpg");
+       // new Viewer(orig.getImage(), sort.getImage()).show();
     }
 
 }

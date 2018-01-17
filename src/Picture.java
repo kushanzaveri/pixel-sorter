@@ -6,11 +6,20 @@ public class Picture {
     private String fileName;
     private BufferedImage image;
     private String extension;
+
+    public Picture (Picture p){
+        this.fileName = p.fileName;
+        load(fileName);
+    }
     public Picture(String fileName){
         this.fileName = fileName;
         load(fileName);
     }
 
+    public Picture(File file){
+        this.fileName = file.getName();
+        load(file);
+    }
 
 
     public BufferedImage getImage(){return image;}
@@ -39,6 +48,17 @@ public class Picture {
     public void load(String fileName){
         try {
             image = ImageIO.read(new File(fileName));
+            int posDot = fileName.indexOf('.');
+            if (posDot >= 0)
+                extension = fileName.substring(posDot + 1);
+        }catch(Exception e){
+            // Handle exception
+        }
+    }
+
+    public void load(File file){
+        try {
+            image = ImageIO.read(file);
             int posDot = fileName.indexOf('.');
             if (posDot >= 0)
                 extension = fileName.substring(posDot + 1);
