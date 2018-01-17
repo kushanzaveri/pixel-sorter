@@ -30,6 +30,17 @@ public class Picture {
     public int  getRGBPixel (int x, int y)          {return image.getRGB(x,y);}
     public void setRGBPixel (int x, int y, int rgb) {image.setRGB(x,y, rgb);}
 
+
+    public String getFileName(){
+        return fileName;
+    }
+    public String getPureName(){
+        int posDot = fileName.indexOf('.');
+        return fileName.substring(0, posDot);
+    }
+    public String getExtension(){
+        return extension;
+    }
     public Pixel getPixel(int x, int y){
         return new Pixel(this, x, y);
     }

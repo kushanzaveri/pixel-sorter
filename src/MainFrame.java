@@ -13,9 +13,8 @@ public class MainFrame extends JFrame {
     JMenu menuFile;
     Picture mainPicture;
     ImagePanel panel;
-    JScrollPane scrollPane;
-    JPanel contentPane;
-
+    ControlFrame cf;
+    PixelSort ps;
     public MainFrame(){
         super();
     }
@@ -76,17 +75,31 @@ public class MainFrame extends JFrame {
             showPicture();
         }
     }
-    public void save(){}
+    public void save(){
+
+        if(cf.getPs()!=null) {
+            ps = cf.getPs();
+            String newName = mainPicture.getPureName()+"-sorted-"+ps.getThreshold()+"."+mainPicture.getExtension();
+            ps.getPicture().write(newName);
+            JOptionPane.showMessageDialog(this,"Saved as: " + newName);
+            return;
+        }
+        JOptionPane.showMessageDialog(this,"Couldn't Save.");
+
+    }
     public void showPicture(){
         panel = new ImagePanel(mainPicture);
         setContentPane(panel);
         repaint();
     }
-
     public void showPicture(Picture toShow){
         panel = new ImagePanel(toShow);
         setContentPane(panel);
         repaint();
+    }
+
+    public void assignControlFrame(ControlFrame cf){
+        this.cf = cf;
     }
     public static void main(String [] args){
         new MainFrame("Wew");

@@ -12,7 +12,7 @@ public class ControlFrame extends JFrame {
     JSlider slider;
     JSpinner spinner;
     JButton genBut;
-
+    PixelSort ps;
     public ControlFrame(MainFrame parent){
         super("Control Frame");
         this.parent=parent;
@@ -20,7 +20,7 @@ public class ControlFrame extends JFrame {
         setupSlider();
         setupButton();
         this.setVisible(true);
-
+        parent.assignControlFrame(this);
     }
 
     public void setupFrame(){
@@ -78,10 +78,13 @@ public class ControlFrame extends JFrame {
 
     public void generate(){
         Picture sortThis = new Picture(parent.mainPicture);
-        PixelSort ps = new PixelSort(sortThis, slider.getValue(), false);
+        ps = new PixelSort(sortThis, slider.getValue(), false);
         parent.showPicture(ps.getPicture());
     }
 
+    public PixelSort getPs(){
+        return ps;
+    }
     public static void main(String [] args){
         MainFrame m = new MainFrame("Main");
         new ControlFrame(m);

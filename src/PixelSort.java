@@ -57,6 +57,9 @@ public class PixelSort {
         }
     }
 
+    public int getThreshold(){
+        return threshold;
+    }
 
     public static void main(String[] args){
         Picture orig = new Picture ("img.jpg");
