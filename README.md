@@ -44,7 +44,7 @@ in luminance between the focus and the background.
 ![Screen](http://snappyimages.nextwavesrl.netdna-cdn.com/img/edfd2c16ff27675c05314d2cd410982a.png)
 
 ### Outputs
-## Sorting a picture of a dog:
+#### Sorting a picture of a dog:
 
 
 Before:
@@ -55,7 +55,7 @@ After:
 ![Dog After](https://i.imgur.com/SbdcBoO.jpg)
 
 
-##  Sorting a picture of a Waterfall:
+####  Sorting a picture of a Waterfall:
 
 Before:
 ![Waterfall Before](https://i.imgur.com/0FV0AuB.jpg)
