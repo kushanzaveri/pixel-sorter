@@ -22,6 +22,10 @@ threshold luminance and ending with the first pixel below a certain threshold lu
 In order to test the application for yourself, you can download the .jar, or download the source code and run the 
 "ControlFrame.java" file.
 
+[.jar file](https://drive.google.com/open?id=1B22zX42dO0FES9HIr5VqyW3nbyNcXJ-5)
+
+
+
 ### Instructions
 
 This project is currently a work-in-progress and so you may run in to a bug while using the application. 
