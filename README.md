@@ -39,10 +39,11 @@ will sort very small ranges (and sorting a small range of pixels won't make a vi
 For even better results, using objects that contrast their background will sort best due to the large difference
 in luminance between the focus and the background.
 
-```
-Give examples
-```
+### Screenshots
 
+![Screen](http://snappyimages.nextwavesrl.netdna-cdn.com/img/edfd2c16ff27675c05314d2cd410982a.png)
+
+### Outputs
 ## Sorting a picture of a dog:
 
 
@@ -54,7 +55,7 @@ After:
 ![Dog After](https://i.imgur.com/SbdcBoO.jpg)
 
 
-## Sorting a picture of a Waterfall:
+##  Sorting a picture of a Waterfall:
 
 Before:
 ![Waterfall Before](https://i.imgur.com/0FV0AuB.jpg)
