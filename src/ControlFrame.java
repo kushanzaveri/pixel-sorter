@@ -77,9 +77,11 @@ public class ControlFrame extends JFrame {
     }
 
     public void generate(){
-        Picture sortThis = new Picture(parent.mainPicture);
-        ps = new PixelSort(sortThis, slider.getValue(), false);
-        parent.showPicture(ps.getPicture());
+        if(parent.mainPicture!=null) {
+            Picture sortThis = new Picture(parent.mainPicture);
+            ps = new PixelSort(sortThis, slider.getValue(), false);
+            parent.showPicture(ps.getPicture());
+        }
     }
 
     public PixelSort getPs(){

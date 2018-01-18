@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pixel-sorter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pixel_sorter_jar</output-path>
+    <root id="archive" name="pixel-sorter.jar">
+      <element id="module-output" name="pixel-sorter" />
+    </root>
+  </artifact>
+</component>

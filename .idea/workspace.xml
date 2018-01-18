@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pixel-sorter:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4845136d-e2e5-481f-b5ff-98ac5bd85337" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sorted.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pixel_sorter_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pixel-sorter/ControlFrame.class" afterPath="$PROJECT_DIR$/out/production/pixel-sorter/ControlFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pixel-sorter/ImagePanel.class" afterPath="$PROJECT_DIR$/out/production/pixel-sorter/ImagePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pixel-sorter/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/pixel-sorter/MainFrame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ControlFrame.java" afterPath="$PROJECT_DIR$/src/ControlFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImagePanel.java" afterPath="$PROJECT_DIR$/src/ImagePanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Picture.java" afterPath="$PROJECT_DIR$/src/Picture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PixelSort.java" afterPath="$PROJECT_DIR$/src/PixelSort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +30,11 @@
       <file leaf-file-name="PixelSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PixelSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="-78">
+              <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
               <folding>
-                <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-                <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
+                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,15 +43,11 @@
       <file leaf-file-name="Picture.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Picture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
+            <state relative-caret-position="195">
               <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="method#Picture#0;class#Picture#0" expanded="false" />
                 <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
                 <element signature="method#getPixelMatrix#0;class#Picture#0" expanded="false" />
                 <element signature="method#load#0;class#Picture#0" expanded="false" />
                 <element signature="method#load#1;class#Picture#0" expanded="false" />
@@ -54,45 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+      <file leaf-file-name="ControlFrame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ControlFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+            <state relative-caret-position="171">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#MainFrame#1;class#MainFrame#0" expanded="false" />
-                <element signature="method#addMenuBar#0;class#MainFrame#0" expanded="false" />
-                <element signature="method#initItems#0;class#MainFrame#0" expanded="false" />
-                <element signature="method#addMenuActions#0;class#MainFrame#0" expanded="false" />
-                <element signature="method#open#0;class#MainFrame#0" expanded="false" />
-                <element signature="method#showPicture#0;class#MainFrame#0" expanded="false" />
-                <element signature="method#showPicture#1;class#MainFrame#0" expanded="false" />
-                <element signature="e#2926#2927#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
+                <element signature="method#ControlFrame#0;class#ControlFrame#0" expanded="false" />
+                <element signature="method#setupFrame#0;class#ControlFrame#0" expanded="false" />
+                <element signature="method#setupSlider#0;class#ControlFrame#0" expanded="false" />
+                <element signature="method#setupButton#0;class#ControlFrame#0" expanded="false" />
+                <element signature="method#generate#0;class#ControlFrame#0" expanded="false" />
+                <element signature="method#main#0;class#ControlFrame#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -123,12 +101,12 @@
         <option value="$PROJECT_DIR$/src/Driver.java" />
         <option value="$PROJECT_DIR$/src/ProgramFlow.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/Constants.java" />
-        <option value="$PROJECT_DIR$/src/ImagePanel.java" />
-        <option value="$PROJECT_DIR$/src/ControlFrame.java" />
         <option value="$PROJECT_DIR$/src/PixelSort.java" />
         <option value="$PROJECT_DIR$/src/Picture.java" />
+        <option value="$PROJECT_DIR$/src/Constants.java" />
         <option value="$PROJECT_DIR$/src/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/ImagePanel.java" />
+        <option value="$PROJECT_DIR$/src/ControlFrame.java" />
       </list>
     </option>
   </component>
@@ -145,9 +123,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="840" />
+    <option name="width" value="1680" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -181,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,16 +175,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -385,14 +363,15 @@
       <workItem from="1516131324782" duration="12000" />
       <workItem from="1516153972505" duration="11674000" />
       <workItem from="1516224953012" duration="1630000" />
+      <workItem from="1516227895810" duration="1929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13994000" />
+    <option name="totallyTimeSpent" value="15923000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1028" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="1028" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -407,7 +386,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43690476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43690476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -460,18 +439,80 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/PixelSort.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+          <folding>
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
+            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
+            <element signature="method#getPixelMatrix#0;class#Picture#0" expanded="false" />
+            <element signature="method#load#0;class#Picture#0" expanded="false" />
+            <element signature="method#load#1;class#Picture#0" expanded="false" />
+            <element signature="method#write#0;class#Picture#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MainFrame#1;class#MainFrame#0" expanded="false" />
+            <element signature="method#addMenuBar#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#initItems#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#addMenuActions#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#open#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#save#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#showPicture#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#showPicture#1;class#MainFrame#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PixelSort.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-            <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,8 +529,8 @@
             <element signature="method#setupButton#0;class#ControlFrame#0" expanded="false" />
             <element signature="class#2318:2467" expanded="false" />
             <element signature="method#generate#0;class#ControlFrame#0" expanded="false" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
+            <element signature="e#2796#2797#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,10 +546,9 @@
             <element signature="method#initItems#0;class#MainFrame#0" expanded="false" />
             <element signature="method#addMenuActions#0;class#MainFrame#0" expanded="false" />
             <element signature="method#open#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#save#0;class#MainFrame#0" expanded="false" />
             <element signature="method#showPicture#0;class#MainFrame#0" expanded="false" />
             <element signature="method#showPicture#1;class#MainFrame#0" expanded="false" />
-            <element signature="e#2926#2927#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -520,10 +560,6 @@
           <folding>
             <element signature="method#Picture#0;class#Picture#0" expanded="false" />
             <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
             <element signature="method#getPixelMatrix#0;class#Picture#0" expanded="false" />
             <element signature="method#load#0;class#Picture#0" expanded="false" />
             <element signature="method#load#1;class#Picture#0" expanded="false" />
@@ -565,8 +601,8 @@
         <state relative-caret-position="1050">
           <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
-            <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-            <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,8 +613,8 @@
         <state relative-caret-position="1155">
           <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
-            <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-            <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,8 +625,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-            <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,8 +636,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-            <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -611,8 +647,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-            <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,10 +658,46 @@
     <entry file="file://$PROJECT_DIR$/src/Driver.java" />
     <entry file="file://$PROJECT_DIR$/src/ProgramFlow.java" />
     <entry file="file://$PROJECT_DIR$/src/ImageViewer.java" />
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
+            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
+            <element signature="method#getPixelMatrix#0;class#Picture#0" expanded="false" />
+            <element signature="method#load#0;class#Picture#0" expanded="false" />
+            <element signature="method#load#1;class#Picture#0" expanded="false" />
+            <element signature="method#write#0;class#Picture#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PixelSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ImagePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="48">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,68 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding>
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="method#getPixelMatrix#0;class#Picture#0" expanded="false" />
-            <element signature="method#load#0;class#Picture#0" expanded="false" />
-            <element signature="method#load#1;class#Picture#0" expanded="false" />
-            <element signature="method#write#0;class#Picture#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ControlFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ControlFrame#0;class#ControlFrame#0" expanded="false" />
-            <element signature="method#setupFrame#0;class#ControlFrame#0" expanded="false" />
-            <element signature="method#setupSlider#0;class#ControlFrame#0" expanded="false" />
-            <element signature="method#setupButton#0;class#ControlFrame#0" expanded="false" />
-            <element signature="class#2318:2467" expanded="false" />
-            <element signature="method#generate#0;class#ControlFrame#0" expanded="false" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PixelSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding>
-            <element signature="method#sortPixels#0;class#PixelSort#0" expanded="false" />
-            <element signature="method#sortRow#0;class#PixelSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        <state relative-caret-position="279">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MainFrame#1;class#MainFrame#0" expanded="false" />
@@ -709,10 +723,25 @@
             <element signature="method#initItems#0;class#MainFrame#0" expanded="false" />
             <element signature="method#addMenuActions#0;class#MainFrame#0" expanded="false" />
             <element signature="method#open#0;class#MainFrame#0" expanded="false" />
+            <element signature="method#save#0;class#MainFrame#0" expanded="false" />
             <element signature="method#showPicture#0;class#MainFrame#0" expanded="false" />
             <element signature="method#showPicture#1;class#MainFrame#0" expanded="false" />
-            <element signature="e#2926#2927#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ControlFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ControlFrame#0;class#ControlFrame#0" expanded="false" />
+            <element signature="method#setupFrame#0;class#ControlFrame#0" expanded="false" />
+            <element signature="method#setupSlider#0;class#ControlFrame#0" expanded="false" />
+            <element signature="method#setupButton#0;class#ControlFrame#0" expanded="false" />
+            <element signature="method#generate#0;class#ControlFrame#0" expanded="false" />
+            <element signature="method#main#0;class#ControlFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -720,6 +749,32 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>pixel-sorter:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -738,6 +793,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pixel-sorter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

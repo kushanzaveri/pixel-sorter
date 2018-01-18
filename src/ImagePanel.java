@@ -8,10 +8,12 @@ public class ImagePanel extends JScrollPane {
     ImageIcon img;
     public ImagePanel(Picture p){
         super(new JLabel(new ImageIcon(p.getImage())));
+        setHorizontalScrollBarPolicy(HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        setVerticalScrollBarPolicy(VERTICAL_SCROLLBAR_AS_NEEDED);
         this.p = p;
         img = new ImageIcon(p.getImage());
         setLocation(0,22);
-        setSize(Constants.WIDTH, Constants.M_HEIGHT-20);
+        setSize(Constants.WIDTH, Constants.M_HEIGHT-43);
         setVisible(true);
     }
 

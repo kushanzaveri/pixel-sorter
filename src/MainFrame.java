@@ -89,7 +89,9 @@ public class MainFrame extends JFrame {
     }
     public void showPicture(){
         panel = new ImagePanel(mainPicture);
+        panel.setPreferredSize(new Dimension(100,100));
         setContentPane(panel);
+
         repaint();
     }
     public void showPicture(Picture toShow){
