@@ -22,6 +22,10 @@ threshold luminance and ending with the first pixel below a certain threshold lu
 In order to test the application for yourself, you can download the .jar, or download the source code and run the 
 "ControlFrame.java" file.
 
+[.jar file](https://drive.google.com/open?id=1B22zX42dO0FES9HIr5VqyW3nbyNcXJ-5)
+
+
+
 ### Instructions
 
 This project is currently a work-in-progress and so you may run in to a bug while using the application. 
@@ -35,11 +39,12 @@ will sort very small ranges (and sorting a small range of pixels won't make a vi
 For even better results, using objects that contrast their background will sort best due to the large difference
 in luminance between the focus and the background.
 
-```
-Give examples
-```
+### Screenshots
 
-## Sorting a picture of a dog:
+![Screen](http://snappyimages.nextwavesrl.netdna-cdn.com/img/edfd2c16ff27675c05314d2cd410982a.png)
+
+### Outputs
+#### Sorting a picture of a dog:
 
 
 Before:
@@ -50,7 +55,7 @@ After:
 ![Dog After](https://i.imgur.com/SbdcBoO.jpg)
 
 
-## Sorting a picture of a Waterfall:
+####  Sorting a picture of a Waterfall:
 
 Before:
 ![Waterfall Before](https://i.imgur.com/0FV0AuB.jpg)
